@@ -24,7 +24,7 @@ export const type: Parser = (value, option) => {
     case "Object":
       return Object(value);
     default:
-      return String(value);
+      return value;
   }
 };
 
